@@ -9,33 +9,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <style>
-        h1 {
-            font-family: Trirong, serif;
-        }
-        h2 {
-            font-family: 'Times New Roman', Times, serif;
-        }
-        h3 {
-            font-family: 'Times New Roman', Times, serif;
-        }
-        p {
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        }
-        ul {
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        }
-        dl {
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        }
-    </style>
     <title>Luke Loubser</title>
 </head>
 <body>
     <div class="top">
         <h1>Luke Loubser</h1>
         <h2>Computer Science Major and Math Minor</h2>
-        <img src="images/luke_picture.jpg" alt="Luke Loubser" width="150">
+        <img src="images/luke_picture.jpg" alt="Luke Loubser" width="150" class="picofme">
+        <hr class="break">
+        <img src="images/desktop.png" alt="Computer Science" class="deskpic" width="160">
+        <img src="images/calc.png" alt="Math Minor" width="150" class="calcpic">
         <h2>Hello</h2>
         <p>I am a current student looking for internhsip or research opportunities. I am a Computer Science major with a Math minor.</p>
     </div>
@@ -63,16 +46,43 @@
         </div>
         <hr>
         <h3>Leadership and Experience</h3>
-        <dl>
-            <dt>2019-2020</dt><dd><a href="https://www.teamunify.com/Home.jsp?_tabid_=0&team=gsrays">Stingrays Swimming</a> Team Captain</dd>
-        </dl>
+        <div class="row">
+            <div class="column2">
+                <ul>
+                    <li>2019-2020</li>
+                </ul>
+            </div>
+            <div class="column3">
+                <ul>
+                    <li><a href="https://www.teamunify.com/Home.jsp?_tabid_=0&team=gsrays">Stingrays Swimming</a> Team Captain</li>
+                </ul>
+            </div>
+            <div class="column1">
+                <img src="images/exp.png" alt="Experience" class="expPic">
+            </div>
+        </div>
         <hr>
         <h3>Skills</h3>
-        <dl>
-            <dt>Time Management</dt><dd> &#128512 </dd>
-            <dt>Logical Thinking</dt><dd> &#128077 </dd>
-            <dt>Learning New Methods</dt><dd> &#128170 </dd>
-        </dl>
+        <div class="row">
+            <div class="column1">
+                <img src="images/light-bulb.png" alt="Skills" class="skillpic">
+            </div>
+            <div class="column3">
+                <ul>
+                    <li>Time Management</li>
+                    <li>Logical Thinking</li>
+                    <li>Learning New Methods</li>
+                </ul>
+            </div>
+            <div class="column2">
+                <ul>
+                    <li>&#128512</li>
+                    <li>&#128077</li>
+                    <li>&#128170</li>
+                </ul>
+            </div>
+        </div>
+        <hr class="break">
         <div class="button">
         <a href="content.html">Get in Touch</a>
         </div>
